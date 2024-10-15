@@ -8,10 +8,11 @@ import ProjectHistory from './components/ProjectHistory';
 import PersonalSkills from './components/PersonalSkills';
 import PersonalDetails from './components/PersonalDetails';
 import Declaration from './components/Declaration';
-import resumeData from './resumeData';
+import ResumeData from './components/ResumeData';
 
 const App = () => {
-  const { data, error } = resumeData();
+  debugger
+  const { data, error } = ResumeData();
 
   if (error) return <div>{error}</div>; // Handle error state
   if (!data) return <div>Loading...</div>; // Handle loading state
