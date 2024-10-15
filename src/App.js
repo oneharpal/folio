@@ -11,7 +11,6 @@ import Declaration from './components/Declaration';
 import ResumeData from './components/ResumeData';
 
 const App = () => {
-  debugger
   const { data, error } = ResumeData();
 
   if (error) return <div>{error}</div>; // Handle error state
