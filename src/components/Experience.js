@@ -8,7 +8,7 @@ const Experience = ({experience}) => {
     <ul>
     {experience.map((exp, index) => (
       <li key={index}>
-      {exp.jobTitle} at {exp.company} ({exp.years})
+      {exp.jobTitle} at {exp.company} ({exp.duration})
       </li>
       ))}
   </ul>
