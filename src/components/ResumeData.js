@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const GIST_REVISION = 'f47b3d9658d21f1a805f28bd7ed116e8e8d773c0';
+const GIST_REVISION = '4e0b30022b559b233790619b862fe3351a263e7f';
 const GIST_URL = `https://gist.githubusercontent.com/oneharpal/6ae50dd9a1f7b9a4b808e288b089e635/raw/${GIST_REVISION}/resumeData.json`;
 
 const ResumeData = () => {
